@@ -21,7 +21,7 @@ const greeting = {
     'Graphic Designer'
   ],
   resumeLink:
-    'https://drive.google.com/drive/',
+    'https://drive.google.com/file/d/1almGlYq0m678oceoY9meHg5E115U25n3/view?usp=sharing',
   mail: 'mailto:chowdamjaganath.cse.38@gmail.com'
 };
 
