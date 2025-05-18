@@ -2,7 +2,7 @@
   "private": true,
   "name": "@chowdam_jaganath/portfolio",
   "version": "0.1.0",
-  "homepage": "https://jaganathc.github.io/Portfolio/",
+  "homepage": "/",
   "scripts": {
     "build": "react-scripts build",
     "deploy": "gh-pages -b gh-pages -d build",
@@ -55,7 +55,7 @@
       "last 1 firefox version",
       "last 1 safari version"
     ],
-    "homepage": "https://jaganathc.github.io/Portfolio/"
+    "homepage": "/"
     
   },
   "eslintConfig": {
