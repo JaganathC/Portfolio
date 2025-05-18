@@ -1,0 +1,43 @@
+.certs-header {
+  font-size: 40px;
+  line-height: 1.1;
+  font-family: 'Google Sans Regular';
+  text-align: center;
+}
+
+.certs-body-div {
+  /* display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: auto;
+}
+.certi-cards-div-main {
+  margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+@media (max-width: 1380px) {
+  .certs-header {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 768px) {
+  .certs-body-div {
+    flex-direction: column;
+  }
+  .certs-header {
+    font-size: 30px;
+  }
+}
